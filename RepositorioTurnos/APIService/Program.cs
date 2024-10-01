@@ -1,6 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using RepositorioTurnos.Models;
+using RepositorioTurnos.Repositories.Contracts;
+using RepositorioTurnos.Repositories.Implementations;
+using RepositorioTurnos.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
+builder.Services.AddDbContext<TurnosDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IServicioService, ServicioService>();
+
+builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

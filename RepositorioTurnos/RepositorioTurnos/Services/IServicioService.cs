@@ -1,4 +1,5 @@
-﻿using RepositorioTurnos.Entities;
+﻿
+using RepositorioTurnos.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,15 +11,12 @@ namespace RepositorioTurnos.Services
 {
     public interface IServicioService
     {
-        List<Servicio> ObtenerServicio();
-
-        Servicio? GetByID(int id);
-
-        bool registarServicio(Servicio service);
-
-        bool editarServicio(Servicio service);
-
-        bool eliminarServicio(int id);
+        List<TServicio> ObtenerServicio();
+        TServicio? GetByID(int id);
+        TServicio? GetByName(string name);
+        void registarServicio(TServicio service);
+        void editarServicio(TServicio service);
+        void  eliminarServicio(int id);
 
 
     }

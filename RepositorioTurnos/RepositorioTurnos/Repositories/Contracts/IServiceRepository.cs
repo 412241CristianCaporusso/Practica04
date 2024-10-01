@@ -15,11 +15,13 @@ namespace RepositorioTurnos.Repositories.Contracts
 
         TServicio? GetByID(int id);
 
-        bool registarServicio(TServicio service);
+        TServicio? GetByName(string name);
+        
+        void registarServicio(TServicio service);
 
-        bool editarServicio(TServicio service);
+        void editarServicio(TServicio service);
 
-        bool eliminarServicio(int id);
+        void eliminarServicio(int id);
 
 
 

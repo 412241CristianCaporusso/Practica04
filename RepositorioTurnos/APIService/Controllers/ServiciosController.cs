@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RepositorioTurnos.Models;
+using RepositorioTurnos.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,36 +13,93 @@ namespace APIService.Controllers
 
 
     {
+        private readonly IServicioService _servicioService;
+
+        public ServiciosController(IServicioService servicioService)
+        {
+            _servicioService = servicioService;
+        }
+
+
         // GET: api/<ServiciosController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            try
+            { 
+                return Ok(_servicioService.ObtenerServicio());
+            }
+            catch (Exception) 
+            {
+                return StatusCode(500, "Ha ocurrido un error");
+            }
         }
 
-        // GET api/<ServiciosController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("ByName/{name}")]
+
+        public IActionResult GetByName(string name) 
         {
-            return "value";
+            return Ok(_servicioService.GetByName(name));
         }
 
-        // POST api/<ServiciosController>
+
+        //// GET api/<ServiciosController>/5
+        [HttpGet("ById/{id}")]
+        public IActionResult Get(int id)
+        {
+            return Ok(_servicioService.GetByID(id));
+        }
+
+        //// POST api/<ServiciosController> 
         [HttpPost]
-        public void Post([FromBody] string value)
+        public IActionResult Post([FromBody] TServicio servicio)
         {
+            try
+            {
+                if (IsValid(servicio))
+                {
+                    _servicioService.registarServicio(servicio);
+                    return Ok("Servicio Insertado");
+                }
+                else
+                {
+                    return BadRequest("El servicio no es valido o incompleto");
+                }
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Ha ocurrido un error");
+            }
+
         }
 
-        // PUT api/<ServiciosController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        private bool IsValid(TServicio servicio)
         {
+            return servicio.Id != 0 && !string.IsNullOrEmpty(servicio.Nombre) && servicio.Costo != 0 && !string.IsNullOrEmpty(servicio.EnPromocion); 
         }
+
+        //// PUT api/<ServiciosController>/5
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] string value)
+        //{
+        //}
 
         // DELETE api/<ServiciosController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+
+            try
+            {
+                _servicioService.eliminarServicio(id);
+                return Ok("Servicio Eliminado");
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Ha ocurrido un error");
+            }
+
+
         }
     }
 }

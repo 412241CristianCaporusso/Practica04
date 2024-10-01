@@ -18,29 +18,45 @@ namespace RepositorioTurnos.Repositories.Implementations
             _turnosDbContext = turnosDbContext;
         }
 
-        public bool editarServicio(TServicio service)
+        public void editarServicio(TServicio service)
         {
-            throw new NotImplementedException();
+           
+            if (service != null)
+            {
+                _turnosDbContext.TServicios.Update(service);
+                _turnosDbContext.SaveChanges();
+            }
         }
 
-        public bool eliminarServicio(int id)
+        public void eliminarServicio(int id)
         {
-            throw new NotImplementedException();
+           var servicioDelete = GetByID(id);
+           if(servicioDelete != null) 
+           { 
+            _turnosDbContext.TServicios.Remove(servicioDelete);
+            _turnosDbContext.SaveChanges();
+           }
         }
 
         public TServicio? GetByID(int id)
         {
-            throw new NotImplementedException();
+            return _turnosDbContext.TServicios.Find(id);
+        }
+
+        public TServicio? GetByName(string name)
+        {
+            return _turnosDbContext.TServicios.FirstOrDefault(ts => ts.Nombre == name);
         }
 
         public List<TServicio> ObtenerServicio()
         {
-            throw new NotImplementedException();
+            return _turnosDbContext.TServicios.ToList();
         }
 
-        public bool registarServicio(TServicio service)
+        public void registarServicio(TServicio service)
         {
-            throw new NotImplementedException();
+            _turnosDbContext.TServicios.Add(service);
+            _turnosDbContext.SaveChanges();
         }
     }
 }

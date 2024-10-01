@@ -1,4 +1,5 @@
-﻿using RepositorioTurnos.Entities;
+﻿
+using RepositorioTurnos.Models;
 using RepositorioTurnos.Repositories.Contracts;
 using System;
 using System.Collections.Generic;
@@ -19,29 +20,34 @@ namespace RepositorioTurnos.Services
         }    
 
 
-        public bool editarServicio(Servicio service)
+        public void editarServicio(TServicio service)
         {
-          return _serviceRepository.editarServicio(service);
+             _serviceRepository.editarServicio(service);
         }
 
-        public bool eliminarServicio(int id)
+        public void eliminarServicio(int id)
         {
-            return _serviceRepository.eliminarServicio(id);
+             _serviceRepository.eliminarServicio(id);
         }
 
-        public Servicio? GetByID(int id)
+        public TServicio? GetByID(int id)
         {
             return _serviceRepository.GetByID(id);
         }
 
-        public List<Servicio> ObtenerServicio()
+        public TServicio? GetByName(string name)
+        {
+            return _serviceRepository.GetByName(name);
+        }
+
+        public List<TServicio> ObtenerServicio()
         {
             return _serviceRepository.ObtenerServicio();
         }
 
-        public bool registarServicio(Servicio service)
+        public void registarServicio(TServicio service)
         {
-            return _serviceRepository.registarServicio(service);  
+            _serviceRepository.registarServicio(service);  
         }
     }
 }
