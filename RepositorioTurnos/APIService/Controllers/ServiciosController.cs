@@ -79,10 +79,27 @@ namespace APIService.Controllers
         }
 
         //// PUT api/<ServiciosController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
+        [HttpPut]
+        public IActionResult Put([FromBody]TServicio servicio)
+        {
+            var servicioUpdate = _servicioService.GetByID(servicio.Id);
+
+            if (servicioUpdate != null)
+            {
+                servicioUpdate.Nombre = servicio.Nombre;
+                servicioUpdate.EnPromocion = servicio.EnPromocion;
+                servicioUpdate.Costo = servicio.Costo;
+
+                _servicioService.editarServicio(servicioUpdate);
+
+                return Ok("Servicio Actualizado Correctamente");
+            }
+            else
+            {
+                return BadRequest("No se pudo actualizar el servicio");
+            }
+
+        }
 
         // DELETE api/<ServiciosController>/5
         [HttpDelete("{id}")]
