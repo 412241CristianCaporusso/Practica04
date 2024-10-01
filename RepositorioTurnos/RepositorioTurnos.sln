@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositorioTurnos", "RepositorioTurnos\RepositorioTurnos.csproj", "{103F47BB-F7E3-4312-98CA-8AA97502C54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIService", "APIService\APIService.csproj", "{79C88755-C8D8-40FE-8018-AA637D20A9AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{103F47BB-F7E3-4312-98CA-8AA97502C54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103F47BB-F7E3-4312-98CA-8AA97502C54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103F47BB-F7E3-4312-98CA-8AA97502C54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103F47BB-F7E3-4312-98CA-8AA97502C54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C88755-C8D8-40FE-8018-AA637D20A9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C88755-C8D8-40FE-8018-AA637D20A9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C88755-C8D8-40FE-8018-AA637D20A9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C88755-C8D8-40FE-8018-AA637D20A9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65569D30-CF96-49EA-8C67-9AEAEF0DE43F}
+	EndGlobalSection
+EndGlobal

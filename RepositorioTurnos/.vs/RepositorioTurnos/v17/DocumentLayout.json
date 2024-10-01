@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|c:\\users\\crist_fmbbgue\\onedrive\\documentos\\tup\\progra2\\repositorioturnos\\repositorioturnos\\repositories\\implementations\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|solutionrelative:repositorioturnos\\repositories\\implementations\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\repositorioturnos\\repositories\\contracts\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|solutionrelative:repositorioturnos\\repositories\\contracts\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C88755-C8D8-40FE-8018-AA637D20A9AE}|APIService\\APIService.csproj|c:\\users\\crist_fmbbgue\\onedrive\\documentos\\tup\\progra2\\repositorioturnos\\apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79C88755-C8D8-40FE-8018-AA637D20A9AE}|APIService\\APIService.csproj|solutionrelative:apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|c:\\users\\crist_fmbbgue\\onedrive\\documentos\\tup\\progra2\\repositorioturnos\\repositorioturnos\\models\\turnosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|solutionrelative:repositorioturnos\\models\\turnosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\repositorioturnos\\services\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|solutionrelative:repositorioturnos\\services\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\repositorioturnos\\services\\iservicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103F47BB-F7E3-4312-98CA-8AA97502C54A}|RepositorioTurnos\\RepositorioTurnos.csproj|solutionrelative:repositorioturnos\\services\\iservicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C88755-C8D8-40FE-8018-AA637D20A9AE}|APIService\\APIService.csproj|C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\apiservice\\controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C88755-C8D8-40FE-8018-AA637D20A9AE}|APIService\\APIService.csproj|solutionrelative:apiservice\\controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\APIService\\appsettings.json",
+              "RelativeDocumentMoniker": "APIService\\appsettings.json",
+              "ToolTip": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\APIService\\appsettings.json",
+              "RelativeToolTip": "APIService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-01T02:05:48.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TurnosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Models\\TurnosDbContext.cs",
+              "RelativeDocumentMoniker": "RepositorioTurnos\\Models\\TurnosDbContext.cs",
+              "ToolTip": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Models\\TurnosDbContext.cs",
+              "RelativeToolTip": "RepositorioTurnos\\Models\\TurnosDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T01:59:51.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServicioService.cs",
+              "DocumentMoniker": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Services\\ServicioService.cs",
+              "RelativeDocumentMoniker": "RepositorioTurnos\\Services\\ServicioService.cs",
+              "ToolTip": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Services\\ServicioService.cs",
+              "RelativeToolTip": "RepositorioTurnos\\Services\\ServicioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T01:14:42.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServicioService.cs",
+              "DocumentMoniker": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Services\\IServicioService.cs",
+              "RelativeDocumentMoniker": "RepositorioTurnos\\Services\\IServicioService.cs",
+              "ToolTip": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Services\\IServicioService.cs",
+              "RelativeToolTip": "RepositorioTurnos\\Services\\IServicioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T01:13:45.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiciosController.cs",
+              "DocumentMoniker": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\APIService\\Controllers\\ServiciosController.cs",
+              "RelativeDocumentMoniker": "APIService\\Controllers\\ServiciosController.cs",
+              "ToolTip": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\APIService\\Controllers\\ServiciosController.cs",
+              "RelativeToolTip": "APIService\\Controllers\\ServiciosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T01:10:32.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Repositories\\Implementations\\ServiceRepository.cs",
+              "RelativeDocumentMoniker": "RepositorioTurnos\\Repositories\\Implementations\\ServiceRepository.cs",
+              "ToolTip": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Repositories\\Implementations\\ServiceRepository.cs",
+              "RelativeToolTip": "RepositorioTurnos\\Repositories\\Implementations\\ServiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T00:31:51.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Repositories\\Contracts\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "RepositorioTurnos\\Repositories\\Contracts\\IServiceRepository.cs",
+              "ToolTip": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\RepositorioTurnos\\RepositorioTurnos\\Repositories\\Contracts\\IServiceRepository.cs",
+              "RelativeToolTip": "RepositorioTurnos\\Repositories\\Contracts\\IServiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T00:24:14.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
